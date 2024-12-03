@@ -4,8 +4,8 @@ This architecture is based on a combination of standard architectures and conven
 over the years specifically for the use of Django, and can be a solution to reduce the hassle of using it in large
 projects...
 
-[!NOTE]
-Next, an example will be added to the project so that definitions and conventions are also available as examples.
+> [!NOTE]
+> Next, an example will be added to the project so that definitions and conventions are also available as examples.
 
 ## Start Project
 
@@ -56,15 +56,14 @@ existence. Therefore, we will only talk about concepts that raise questions abou
 There may be parts to each project, while each project represents a specific concept of a set of operations that
 ultimately make up the entire project.
 
-[!IMPORTANT]  
-Note that each app in the project should be designed in such a way that it does not have any direct connection to other
-apps.
+> [!IMPORTANT]  
+> Note that each app in the project should be designed in such a way that it does not have any direct connection to
+> other
+> apps.
 
-[!NOTE]
-Communication between apps or apps with outside the app is done through interfaces and IDs in databases.
-
-[!NOTE]
-Every app should be designed in such a way that its absence does not affect the entire project.
+> [!NOTE]
+> Communication between apps or apps with outside the app is done through interfaces and IDs in databases.
+> Every app should be designed in such a way that its absence does not affect the entire project.
 
 Next, we will discuss the files that are inside each application.
 
@@ -145,9 +144,11 @@ endpoints so that each can be easily accessed.
 ## Object Oriented
 
 Let's try to use complete object-oriented design in the development process and do this optimally and completely.
+
 ## DB
 
-In database designs, we should try to be as careful in the design as possible and observe indexing in introducing database models.
+In database designs, we should try to be as careful in the design as possible and observe indexing in introducing
+database models.
 Avoid using additional flags as much as possible.
 Avoid using unnecessary relations.
 Avoid defining additional logic in models as much as possible and create logic in the service or interface layer.
@@ -166,7 +167,8 @@ Let's try to follow standard methods when naming our endpoints.
 
 ## Response
 
-Let's try to create a specific structure for our responses and adhere to this structure in all respects. Let's try to publish the correct status codes.
+Let's try to create a specific structure for our responses and adhere to this structure in all respects. Let's try to
+publish the correct status codes.
 
 ## Apis
 
