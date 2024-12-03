@@ -1,0 +1,6 @@
+# NewModel Serializers
+from .newmodel_create import NewModelCreateSerializer
+from .newmodel_list import NewModelListSerializer
+from .newmodel_retrieve import NewModelRetrieveSerializer
+from .newmodel_update import NewModelUpdateSerializer
+from .newmodel_destroy import NewModelDestroySerializer
