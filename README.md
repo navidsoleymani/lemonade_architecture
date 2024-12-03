@@ -63,6 +63,8 @@ ultimately make up the entire project.
 
 > [!NOTE]
 > Communication between apps or apps with outside the app is done through interfaces and IDs in databases.
+
+> [!NOTE]
 > Every app should be designed in such a way that its absence does not affect the entire project.
 
 Next, we will discuss the files that are inside each application.
